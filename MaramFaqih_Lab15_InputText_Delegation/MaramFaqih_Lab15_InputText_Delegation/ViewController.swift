@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func displayButton(_ sender: UIButton) {
-       let fName = firstNameField.text! 
+       let fName = firstNameField.text!
         let lName = lastNameField.text!
         
         labelForDisplay.text =  "My Name is \(fName) \(lName)"
@@ -33,7 +33,9 @@ class ViewController: UIViewController {
 extension ViewController:UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
-        labelForDisplay.resignFirstResponder()
+        firstNameField.resignFirstResponder()
+        lastNameField.resignFirstResponder()
+        
         return true
     }
 }
