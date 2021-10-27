@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF14E3AC2729961700ABC56C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF14E3AB2729961700ABC56C /* AppDelegate.swift */; };
+		AF14E3AE2729961700ABC56C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF14E3AD2729961700ABC56C /* SceneDelegate.swift */; };
+		AF14E3B02729961700ABC56C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF14E3AF2729961700ABC56C /* ViewController.swift */; };
+		AF14E3B32729961700ABC56C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF14E3B12729961700ABC56C /* Main.storyboard */; };
+		AF14E3B52729961900ABC56C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF14E3B42729961900ABC56C /* Assets.xcassets */; };
+		AF14E3B82729961900ABC56C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF14E3B62729961900ABC56C /* LaunchScreen.storyboard */; };
+		AF14E3C32729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF14E3C22729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationTests.swift */; };
+		AF14E3CD2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF14E3CC2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITests.swift */; };
+		AF14E3CF2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF14E3CE2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF14E3BF2729961900ABC56C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF14E3A02729961700ABC56C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF14E3A72729961700ABC56C;
+			remoteInfo = ArwaAlattas_lab15_InputText_Delegation;
+		};
+		AF14E3C92729961900ABC56C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF14E3A02729961700ABC56C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF14E3A72729961700ABC56C;
+			remoteInfo = ArwaAlattas_lab15_InputText_Delegation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF14E3A82729961700ABC56C /* ArwaAlattas_lab15_InputText_Delegation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArwaAlattas_lab15_InputText_Delegation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF14E3AB2729961700ABC56C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF14E3AD2729961700ABC56C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF14E3AF2729961700ABC56C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF14E3B22729961700ABC56C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF14E3B42729961900ABC56C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF14E3B72729961900ABC56C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF14E3B92729961900ABC56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF14E3BE2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArwaAlattas_lab15_InputText_DelegationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF14E3C22729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lab15_InputText_DelegationTests.swift; sourceTree = "<group>"; };
+		AF14E3C82729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArwaAlattas_lab15_InputText_DelegationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF14E3CC2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lab15_InputText_DelegationUITests.swift; sourceTree = "<group>"; };
+		AF14E3CE2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArwaAlattas_lab15_InputText_DelegationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF14E3A52729961700ABC56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF14E3BB2729961900ABC56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF14E3C52729961900ABC56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF14E39F2729961700ABC56C = {
+			isa = PBXGroup;
+			children = (
+				AF14E3AA2729961700ABC56C /* ArwaAlattas_lab15_InputText_Delegation */,
+				AF14E3C12729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationTests */,
+				AF14E3CB2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITests */,
+				AF14E3A92729961700ABC56C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF14E3A92729961700ABC56C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF14E3A82729961700ABC56C /* ArwaAlattas_lab15_InputText_Delegation.app */,
+				AF14E3BE2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationTests.xctest */,
+				AF14E3C82729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF14E3AA2729961700ABC56C /* ArwaAlattas_lab15_InputText_Delegation */ = {
+			isa = PBXGroup;
+			children = (
+				AF14E3AB2729961700ABC56C /* AppDelegate.swift */,
+				AF14E3AD2729961700ABC56C /* SceneDelegate.swift */,
+				AF14E3AF2729961700ABC56C /* ViewController.swift */,
+				AF14E3B12729961700ABC56C /* Main.storyboard */,
+				AF14E3B42729961900ABC56C /* Assets.xcassets */,
+				AF14E3B62729961900ABC56C /* LaunchScreen.storyboard */,
+				AF14E3B92729961900ABC56C /* Info.plist */,
+			);
+			path = ArwaAlattas_lab15_InputText_Delegation;
+			sourceTree = "<group>";
+		};
+		AF14E3C12729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF14E3C22729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationTests.swift */,
+			);
+			path = ArwaAlattas_lab15_InputText_DelegationTests;
+			sourceTree = "<group>";
+		};
+		AF14E3CB2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF14E3CC2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITests.swift */,
+				AF14E3CE2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITestsLaunchTests.swift */,
+			);
+			path = ArwaAlattas_lab15_InputText_DelegationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF14E3A72729961700ABC56C /* ArwaAlattas_lab15_InputText_Delegation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF14E3D22729961900ABC56C /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab15_InputText_Delegation" */;
+			buildPhases = (
+				AF14E3A42729961700ABC56C /* Sources */,
+				AF14E3A52729961700ABC56C /* Frameworks */,
+				AF14E3A62729961700ABC56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArwaAlattas_lab15_InputText_Delegation;
+			productName = ArwaAlattas_lab15_InputText_Delegation;
+			productReference = AF14E3A82729961700ABC56C /* ArwaAlattas_lab15_InputText_Delegation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF14E3BD2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF14E3D52729961900ABC56C /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab15_InputText_DelegationTests" */;
+			buildPhases = (
+				AF14E3BA2729961900ABC56C /* Sources */,
+				AF14E3BB2729961900ABC56C /* Frameworks */,
+				AF14E3BC2729961900ABC56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF14E3C02729961900ABC56C /* PBXTargetDependency */,
+			);
+			name = ArwaAlattas_lab15_InputText_DelegationTests;
+			productName = ArwaAlattas_lab15_InputText_DelegationTests;
+			productReference = AF14E3BE2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF14E3C72729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF14E3D82729961900ABC56C /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab15_InputText_DelegationUITests" */;
+			buildPhases = (
+				AF14E3C42729961900ABC56C /* Sources */,
+				AF14E3C52729961900ABC56C /* Frameworks */,
+				AF14E3C62729961900ABC56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF14E3CA2729961900ABC56C /* PBXTargetDependency */,
+			);
+			name = ArwaAlattas_lab15_InputText_DelegationUITests;
+			productName = ArwaAlattas_lab15_InputText_DelegationUITests;
+			productReference = AF14E3C82729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF14E3A02729961700ABC56C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AF14E3A72729961700ABC56C = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AF14E3BD2729961900ABC56C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AF14E3A72729961700ABC56C;
+					};
+					AF14E3C72729961900ABC56C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AF14E3A72729961700ABC56C;
+					};
+				};
+			};
+			buildConfigurationList = AF14E3A32729961700ABC56C /* Build configuration list for PBXProject "ArwaAlattas_lab15_InputText_Delegation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF14E39F2729961700ABC56C;
+			productRefGroup = AF14E3A92729961700ABC56C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF14E3A72729961700ABC56C /* ArwaAlattas_lab15_InputText_Delegation */,
+				AF14E3BD2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationTests */,
+				AF14E3C72729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF14E3A62729961700ABC56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF14E3B82729961900ABC56C /* LaunchScreen.storyboard in Resources */,
+				AF14E3B52729961900ABC56C /* Assets.xcassets in Resources */,
+				AF14E3B32729961700ABC56C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF14E3BC2729961900ABC56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF14E3C62729961900ABC56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF14E3A42729961700ABC56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF14E3B02729961700ABC56C /* ViewController.swift in Sources */,
+				AF14E3AC2729961700ABC56C /* AppDelegate.swift in Sources */,
+				AF14E3AE2729961700ABC56C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF14E3BA2729961900ABC56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF14E3C32729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF14E3C42729961900ABC56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF14E3CF2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITestsLaunchTests.swift in Sources */,
+				AF14E3CD2729961900ABC56C /* ArwaAlattas_lab15_InputText_DelegationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF14E3C02729961900ABC56C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF14E3A72729961700ABC56C /* ArwaAlattas_lab15_InputText_Delegation */;
+			targetProxy = AF14E3BF2729961900ABC56C /* PBXContainerItemProxy */;
+		};
+		AF14E3CA2729961900ABC56C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF14E3A72729961700ABC56C /* ArwaAlattas_lab15_InputText_Delegation */;
+			targetProxy = AF14E3C92729961900ABC56C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF14E3B12729961700ABC56C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF14E3B22729961700ABC56C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF14E3B62729961900ABC56C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF14E3B72729961900ABC56C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF14E3D02729961900ABC56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF14E3D12729961900ABC56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF14E3D32729961900ABC56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArwaAlattas_lab15_InputText_Delegation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab15-InputText-Delegation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF14E3D42729961900ABC56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArwaAlattas_lab15_InputText_Delegation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab15-InputText-Delegation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF14E3D62729961900ABC56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab15-InputText-DelegationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArwaAlattas_lab15_InputText_Delegation.app/ArwaAlattas_lab15_InputText_Delegation";
+			};
+			name = Debug;
+		};
+		AF14E3D72729961900ABC56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab15-InputText-DelegationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArwaAlattas_lab15_InputText_Delegation.app/ArwaAlattas_lab15_InputText_Delegation";
+			};
+			name = Release;
+		};
+		AF14E3D92729961900ABC56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab15-InputText-DelegationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArwaAlattas_lab15_InputText_Delegation;
+			};
+			name = Debug;
+		};
+		AF14E3DA2729961900ABC56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GU4GP7U2DT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arwa-macbook-pro.ArwaAlattas-lab15-InputText-DelegationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArwaAlattas_lab15_InputText_Delegation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF14E3A32729961700ABC56C /* Build configuration list for PBXProject "ArwaAlattas_lab15_InputText_Delegation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF14E3D02729961900ABC56C /* Debug */,
+				AF14E3D12729961900ABC56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF14E3D22729961900ABC56C /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab15_InputText_Delegation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF14E3D32729961900ABC56C /* Debug */,
+				AF14E3D42729961900ABC56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF14E3D52729961900ABC56C /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab15_InputText_DelegationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF14E3D62729961900ABC56C /* Debug */,
+				AF14E3D72729961900ABC56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF14E3D82729961900ABC56C /* Build configuration list for PBXNativeTarget "ArwaAlattas_lab15_InputText_DelegationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF14E3D92729961900ABC56C /* Debug */,
+				AF14E3DA2729961900ABC56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF14E3A02729961700ABC56C /* Project object */;
+}
