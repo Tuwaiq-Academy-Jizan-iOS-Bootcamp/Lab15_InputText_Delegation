@@ -22,8 +22,8 @@ class ViewController: UIViewController{
     @IBAction func displayButton(_ sender: UIButton) {
         
         desplaySowLabel.text = "My Name is \( textField1.text ?? "")\( textFiled2.text ?? "")"
-        desplaySowLabel.becomeFirstResponder()
         textFiled2.resignFirstResponder()
+        textField1.resignFirstResponder()
         
     }
     
@@ -32,7 +32,7 @@ class ViewController: UIViewController{
 extension ViewController: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        desplaySowLabel.becomeFirstResponder()
+        textField1.resignFirstResponder()
         textFiled2.resignFirstResponder()
         return true
     }
