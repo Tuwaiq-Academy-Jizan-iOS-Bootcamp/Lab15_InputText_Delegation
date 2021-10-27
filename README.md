@@ -10,5 +10,5 @@ Use all you're learned about delagate and textField to make the same app on the 
 
 ### Descritption 
 
-You got 2 textField and 1 button. When you touch the "Display" button you print the you got in those textfield
+You got 2 textField and 1 button. When you touch the "Display" button you must print what you got in textfield
 
