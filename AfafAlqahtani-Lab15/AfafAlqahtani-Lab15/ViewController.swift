@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITextFieldDelegate  {
+class ViewController: UIViewController{
 
     @IBOutlet weak var firstName: UITextField!
     @IBOutlet weak var lastName: UITextField!
@@ -30,14 +30,12 @@ class ViewController: UIViewController,UITextFieldDelegate  {
          
         
     }
-    extension ViewController: UITextViewDelegate {
+    extension ViewController: UITextFieldDelegate {
             
             func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-                      displayText.text = firstName.text
                       firstName.resignFirstResponder()
-                       displayText.text = lastName.text
                        lastName.resignFirstResponder()
-                        print("return button pressed !")
+                     
                             return true
             }
             
