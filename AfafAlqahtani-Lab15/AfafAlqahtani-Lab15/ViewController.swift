@@ -24,7 +24,7 @@ class ViewController: UIViewController{
 
     
     @IBAction func button(_ sender: Any) {
-        displayText.text = "my name is : \(firstName.text!) \(lastName.text!)"
+        displayText.text = "\(firstName.text!) \(lastName.text!)"
     }
         
          
